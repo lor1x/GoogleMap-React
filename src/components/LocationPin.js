@@ -1,7 +1,7 @@
 export default function LocationPin({ text, active }) {
   return (
     <div className="flex flex-col">
-      <div class="flex flex-col justify-center items-center content-center">
+      <div className="flex flex-col justify-center items-center content-center">
         <p
           className={`text-center px-6 py-2 rounded-2xl text-white ${
             active ? " bg-red-600 " : " bg-blue-600 "
